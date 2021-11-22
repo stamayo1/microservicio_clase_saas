@@ -1,4 +1,4 @@
-# Microservio de TASKS, para la asignatura de SAAS
+# Microservio de tasks, para la asignatura de saas
 
 ## Pre-requisitos 📋
 * Tener instalado Python (3.7+), pip (21.0.0+)
@@ -26,10 +26,12 @@ Activar el entorno virtual desde la consola:
 
 **En Windows**
 ```
-**.\<nombre del entorno virtual>\Scripts\activate** or
+.\<nombre_entorno_virtual>\Scripts\activate 
 
-cd <nombre de entorno virtual que se creo>
-ejecuctar **.\scripts\activate**
+or
+
+cd <nombre_entorno_virtual>
+.\scripts\activate
 ```
 **En Linux**
 ```
@@ -71,10 +73,9 @@ flask run
 
 ## Los dos primeros comandos son usados siempre que vamos a ejecutar el proyecto
 
-# **flask run** pone en ejecución el proyecto 
+## **flask run** pone en ejecución el proyecto 
 
-
-# Para crear o actualizar una task, solo es necesario enviar el siguiente json
+## Para crear o actualizar una task, solo es necesario enviar el siguiente json
 ```
 {
     "title": <value>,
