@@ -1,0 +1,19 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode
+.vscode/
+
+#### pyenv
+.python-version
+
+### Environments
+env/
+venv/
+migrations/
+
+#### KEY DATABASE
+*.json
+db.sqlite
